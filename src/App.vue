@@ -1,17 +1,18 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <p><NButton type="is-submit">Begin your experience</NButton></p>
+    <p><NButton type="is-action-tile">Mass order create</NButton></p>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NButton from './components/Button/Button';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NButton
   }
 }
 </script>
