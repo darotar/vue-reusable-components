@@ -1,0 +1,7 @@
+:root {
+  --n-primary: #000;
+  --n-border: #e5e5e5;
+  --n-white: #fff;
+  --n-action-blue: #2f7fff;
+  --n-transition-common: all 175ms ease-in-out;
+}
